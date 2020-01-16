@@ -23,7 +23,7 @@ app.get('/', function(req, res, next) {
 app.post('/liff', function(req, res, next) {
     var options = {
         method: 'POST',
-        uri: 'https://gentle-crag-28693.herokuapp.com/liff',
+        uri: 'https://sleepy-ravine-51140.herokuapp.com/liff',
         json: true
     };
 
