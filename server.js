@@ -1,6 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-var port = 5007;
+var port = 5009;
 var rp = require('request-promise');
 
 var app = new express();
@@ -23,7 +23,7 @@ app.get('/', function(req, res, next) {
 app.post('/liff', function(req, res, next) {
     var options = {
         method: 'POST',
-        uri: 'https://sleepy-ravine-51140.herokuapp.com/liff',
+        uri: 'https://sleepy-ravine-51140.herokuapp.com/search',
         json: true
     };
 
